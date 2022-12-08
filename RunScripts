@@ -1,0 +1,6 @@
+
+#  split -l 500 dictionary-en-txt dictionary
+for FILE in ./dictionaryFiles/*
+do
+  bash hackStudent.sh $FILE &
+done
