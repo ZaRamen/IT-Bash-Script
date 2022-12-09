@@ -12,4 +12,8 @@ do
    done
    tail -n +2 $1 > $1.tmp && mv $1.tmp $1
    echo $line, $result >> results
+   if [ $result -eq 0 ]
+   then
+      echo $line > results
+   fi
 done
