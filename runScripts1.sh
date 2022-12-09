@@ -1,5 +1,5 @@
 
-for FILE in ./mostDictionaryFiles/raymond
+for FILE in ./mostDictionaryFiles/raymond/*
 do
   nohup ./hackStudent.sh $FILE &
 done
