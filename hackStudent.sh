@@ -15,5 +15,6 @@ do
    if [ $result -eq 0 ]
    then
       echo $line > passwordAns
+      exit
    fi
 done
