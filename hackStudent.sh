@@ -14,6 +14,6 @@ do
    echo $line, $result >> results
    if [ $result -eq 0 ]
    then
-      echo $line > results
+      echo $line > passwordAns
    fi
 done
